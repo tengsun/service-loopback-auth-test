@@ -1,6 +1,6 @@
 var server = require('./server');
 
-var ds = server.dataSources.mysql_db;
+var ds = server.dataSources.mongo_db;
 var lbTables = ['User', 'AccessToken', 'ACL', 'Role', 'RoleMapping'];
 
 ds.automigrate(lbTables, function (er) {
