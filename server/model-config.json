@@ -42,5 +42,13 @@
   "Role": {
     "dataSource": "mongo_db",
     "public": false
+  },
+  "Workspace": {
+    "dataSource": "mongo_db",
+    "public": true
+  },
+  "UserWorkspaceRel": {
+    "dataSource": "mongo_db",
+    "public": true
   }
 }
