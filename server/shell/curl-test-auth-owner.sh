@@ -1,6 +1,6 @@
 BASE_URL=http://localhost:5000/api
-ACCESS_TOKEN=LNQBpFMqC9clKuDDkWGAI9UUys4fAvwTYldT9SEBd9duZ1eGUgq77Gn0rinSPFHo
-WS_ID=5b1a15c9d5a45c0b29966de6
+ACCESS_TOKEN=d2xoAsCbzeJFEyZUjbD6QLpqOrXmdi1VIm7cmYsH06Z7WXox44uxa7dNp9QUujj4
+WS_ID=5b1a1e9d4e6eac0e387a7180
 
 echo -e "\n---------- LOGIN ----------"
 curl -X POST -H "content-type: application/json" -d '{"email": "lucy@test.com", "password": "test"}' $BASE_URL/AppUsers/login
