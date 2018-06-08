@@ -38,6 +38,27 @@
       "principalId": "admin",
       "permission": "ALLOW",
       "property": "deleteById"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "member",
+      "permission": "ALLOW",
+      "property": "findById"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "owner",
+      "permission": "ALLOW",
+      "property": "findById"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "owner",
+      "permission": "ALLOW",
+      "property": "patchAttributes"
     }
   ],
   "methods": {}

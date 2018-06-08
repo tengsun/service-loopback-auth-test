@@ -15,5 +15,5 @@ module.exports = function(Workspace) {
     Workspace.remoteMethod('list', {
         http: { path: '/list', verb: 'get' },
         returns: { arg: 'workspaces', type: 'array' }
-    })
+    });
 };
